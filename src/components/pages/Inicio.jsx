@@ -6,7 +6,7 @@ const Inicio = () => {
         <div>
             <CarouselHome />
             <div className="products">
-                <h2>Proudctos destacados</h2>
+                <h2>Productos destacados</h2>
                 <div className="products-grid">
                     {products.slice(0, 3).map((product) =>
                         <div className="card" key={product.id}>
